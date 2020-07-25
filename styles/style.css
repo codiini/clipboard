@@ -198,7 +198,8 @@ footer {
   .section-a .flex-item img {
     width: 100%;
     height: auto;
-    margin-right: 6rem;
+    margin-right: 2rem;
+    margin-left: 6rem;
     overflow-x: hidden;
   }
   .section-a .first-p {
@@ -245,16 +246,23 @@ footer {
     text-align: center;
   }
   .section-d-flex img {
-    margin-left: 4rem;
+    margin-left: 2.5rem;
+    opacity:0.3;
+  }
+  .section-d-flex img:hover{
+      opacity: 1;
   }
   .section-e .section-e-p {
     padding: 0 20rem;
   }
   .section-e .download-link2 {
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 0 22rem;
+    padding:0 10rem;
+  }
+  .download-ios {
+    margin: 0;
   }
   .section-f {
     display: flex;
