@@ -48,10 +48,10 @@ header a img {
   text-decoration: none;
   transition: all ease 0.3s;
 }
-.button-ios:hover {
+.download-ios:hover {
   background: hsl(171, 43%, 46%);
 }
-.button-mac:hover {
+.download-mac:hover {
   background: hsl(233, 26%, 54%);
 }
 .download-ios {
@@ -247,10 +247,10 @@ footer {
   }
   .section-d-flex img {
     margin-left: 2.5rem;
-    opacity:0.3;
+    opacity: 0.3;
   }
-  .section-d-flex img:hover{
-      opacity: 1;
+  .section-d-flex img:hover {
+    opacity: 1;
   }
   .section-e .section-e-p {
     padding: 0 20rem;
@@ -259,9 +259,9 @@ footer {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    padding:0 10rem;
+    padding: 0 20rem;
   }
-  .download-ios {
+  .download-link2 .download-ios {
     margin: 0;
   }
   .section-f {
